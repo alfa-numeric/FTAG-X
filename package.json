@@ -1,0 +1,33 @@
+{
+  "name": "ftag-x",
+  "version": "1.0.0",
+  "description": "A modloader for noone_FA's Fatty Text Adventure Game.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ftag-x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfa-numeric/FTAG-X.git"
+  },
+  "author": "alfanumeric",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/alfa-numeric/FTAG-X/issues"
+  },
+  "homepage": "https://github.com/alfa-numeric/FTAG-X#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "extwee": "^2.0.6",
+    "pkg": "^5.7.0"
+  },
+  "bin": {
+    "hello": "index.js"
+  },
+  "pkg": {
+    "assets": [
+      "src/**/*"
+    ],
+    "output": "../bin"
+  }
+}
